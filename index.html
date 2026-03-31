@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App - VISHAL PATEL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <h1>🌦 Weather App</h1>
+    <!--<p>Developed by VISHAL PATEL</p> -->
+  </nav>
+
+  <!-- Main -->
+  <div class="container">
+
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter City or Village">
+      <button onclick="getWeather()">Search</button>
+      <button onclick="getLocation()">📍 Use Location</button>
+    </div>
+
+    <div class="weather-card">
+      <h2 id="city">--</h2>
+      <h3 id="dateTime"></h3>
+
+      <div class="weather-icon" id="icon"></div>
+
+      <h1 id="temp">--°C</h1>
+      <p id="desc">--</p>
+
+      <div class="details">
+        <p>💧 Humidity: <span id="humidity"></span></p>
+        <p>🌬 Wind: <span id="wind"></span></p>
+      </div>
+
+      <!-- Animation -->
+      <div id="animation"></div>
+
+    </div>
+  </div>
+  <footer>
+  <p>© 2026 Weather App | Developed by <span>VISHAL PATEL</span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

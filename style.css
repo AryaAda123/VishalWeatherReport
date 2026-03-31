@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+body {
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
+  color: white;
+  text-align: center;
+}
+
+/* Navbar */
+nav {
+  background: rgba(0,0,0,0.3);
+  padding: 15px;
+}
+
+nav h1 {
+  font-size: 24px;
+}
+
+/* Container */
+.container {
+  margin-top: 30px;
+}
+
+/* Search */
+.search-box input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+  border: none;
+}
+
+.search-box button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Weather Card */
+.weather-card {
+  background: rgba(0,0,0,0.3);
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.weather-icon {
+  font-size: 60px;
+  margin: 10px;
+}
+
+.details {
+  margin-top: 10px;
+}
+
+/* Rain Animation */
+.rain {
+  background: url('https://i.ibb.co/Kq9VQdV/rain.gif');
+  height: 100px;
+}
+
+/* Cloud Animation */
+.cloud {
+  background: url('https://i.ibb.co/7QpKsCX/cloud.gif');
+  height: 100px;
+}
+
+/* Responsive */
+@media(max-width: 600px){
+  .weather-card {
+    width: 90%;
+  }
+}
+
+/*footer use */
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  padding: 10px;
+  font-size: 14px;
+}
+
+footer span {
+  color: #ffd700;
+  font-weight: bold;
+}
